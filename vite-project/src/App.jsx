@@ -16,11 +16,10 @@ const App = () => {
   return (
     <div className="App">
       <Routes>
-      <Route path="/" element={<BotPage />}></Route>
-      <Route path="/robots/:id" element={<BotSpecsPage />}></Route>
-      <Route path="*" element={<NotFoundPage />}></Route>
-    </Routes>
-     
+        <Route path="/" element={<BotPage />}></Route>
+        <Route path="/robots/:id" element={<BotSpecsPage />}></Route>
+        <Route path="*" element={<NotFoundPage />}></Route>
+      </Routes>
     </div>
   );
 }
